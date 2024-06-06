@@ -1,0 +1,18 @@
+.service
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cards{
+
+}
+.cards .card{
+    width: 100%;
+    margin: 10px 0;
+    padding-top: 20px;
+}
+.text-primary {
+    font-size: 50px;
+    color: #FEA116 !important;
+}

@@ -1,0 +1,108 @@
+.hero{
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(rgba(15, 23, 43, .9) , rgba(15, 23, 43, .9)) , url(./../../assets/images/bg-hero.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center; 
+    position: relative;
+}
+
+.heroContant
+{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+
+}
+
+.heroContant h1{
+    font-size: 50px;
+    width: 70%;
+}
+.heroContant p{
+    width: 90%;
+    margin-bottom: 40px;
+}
+.btn-color{
+    background-color: #FEA116;
+    border-color: #FEA116 !important;
+}
+.heroImg 
+{
+    overflow: hidden;
+}
+.heroImg .img-fluid
+{
+    width: 90%;
+    
+}
+.heroImg img 
+{
+    animation: imgHero 50s linear infinite;
+    
+}
+@keyframes imgHero {
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+@media (max-width:1200px) and (min-width:992px)
+{
+    .heroContant h1{
+        font-size: 45px;
+        width: 90%;
+    }
+}
+@media (max-width:992px) and (min-width:768px)
+{
+    .heroImg .img-fluid
+    {
+        width: 40%;
+    }
+    .heroContant h1{
+        font-size: 45px;
+        width: 50%;
+    }
+    .heroContant p {
+        width: 80%;
+    }
+}
+@media (max-width:768px) and (min-width:576px)
+{
+    .heroImg .img-fluid
+    {
+        width: 50%;
+    }
+    .heroContant h1{
+        font-size: 40px;
+        width: 70%;
+    }
+    .heroContant p {
+        width: 90%;
+        font-size: 15px;
+        margin: 20px 0;
+    }
+
+}
+@media (max-width:576px) and (min-width:300px)
+{
+    
+    .heroImg .img-fluid
+    {
+        width: 70%;
+    }
+    .heroContant p {
+        font-size: 15px;
+        width: 100%;
+    }
+    .heroContant h1{
+        font-size: 30px;
+        width: 90%;
+    }
+}

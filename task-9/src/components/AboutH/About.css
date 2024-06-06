@@ -1,0 +1,18 @@
+.imgAbout
+{
+    width: 100%;
+    height: auto;
+}
+.btn-read:hover
+{
+    color: #000  !important;
+    background-color: transparent !important;
+}
+.titel
+{
+    color: #FEA116;
+}
+.ord
+{
+    border-color: #FEA116 !important;
+}
